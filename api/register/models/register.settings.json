@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registers",
+  "info": {
+    "name": "Register"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Fname": {
+      "type": "string",
+      "required": true
+    },
+    "Lname": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "stateCode": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "FirstInst": {
+      "type": "text"
+    },
+    "SecondInst": {
+      "type": "text"
+    },
+    "DateCompleted1": {
+      "type": "date"
+    },
+    "DateCompleted2": {
+      "type": "date"
+    },
+    "AreaSpec": {
+      "type": "string",
+      "required": true
+    },
+    "DiplomaC": {
+      "type": "string",
+      "required": false
+    },
+    "PgdC": {
+      "type": "string"
+    }
+  }
+}
