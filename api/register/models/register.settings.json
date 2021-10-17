@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "registers",
   "info": {
-    "name": "Register"
+    "name": "Register",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -59,6 +60,30 @@
       "required": false
     },
     "PgdC": {
+      "type": "string"
+    },
+    "currentRole": {
+      "type": "string"
+    },
+    "currentOrg": {
+      "type": "string"
+    },
+    "DateJoinedCurrent": {
+      "type": "date"
+    },
+    "PastRole": {
+      "type": "string"
+    },
+    "PastOrg": {
+      "type": "string"
+    },
+    "DateJoinedPast": {
+      "type": "date"
+    },
+    "DateLeftPast": {
+      "type": "date"
+    },
+    "membershipCat": {
       "type": "string"
     }
   }

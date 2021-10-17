@@ -573,6 +573,33 @@
           "PgdC": {
             "type": "string"
           },
+          "currentRole": {
+            "type": "string"
+          },
+          "currentOrg": {
+            "type": "string"
+          },
+          "DateJoinedCurrent": {
+            "type": "string",
+            "format": "date"
+          },
+          "PastRole": {
+            "type": "string"
+          },
+          "PastOrg": {
+            "type": "string"
+          },
+          "DateJoinedPast": {
+            "type": "string",
+            "format": "date"
+          },
+          "DateLeftPast": {
+            "type": "string",
+            "format": "date"
+          },
+          "membershipCat": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -632,6 +659,33 @@
             "type": "string"
           },
           "PgdC": {
+            "type": "string"
+          },
+          "currentRole": {
+            "type": "string"
+          },
+          "currentOrg": {
+            "type": "string"
+          },
+          "DateJoinedCurrent": {
+            "type": "string",
+            "format": "date"
+          },
+          "PastRole": {
+            "type": "string"
+          },
+          "PastOrg": {
+            "type": "string"
+          },
+          "DateJoinedPast": {
+            "type": "string",
+            "format": "date"
+          },
+          "DateLeftPast": {
+            "type": "string",
+            "format": "date"
+          },
+          "membershipCat": {
             "type": "string"
           },
           "published_at": {
