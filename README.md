@@ -1,3 +1,14 @@
-# Strapi application
+Backend APi for Ihdm 
 
-A quick description of your strapi application
+build on strapi.
+
+  npm start 
+  strapi start
+
+  npm build
+strapi build
+
+npm run strapi
+strapi
+
+
