@@ -1,5 +1,8 @@
 Backend APi for Ihdm 
 
+
+backend adjusted
+
 build on strapi.
 
   npm start 
